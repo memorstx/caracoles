@@ -1,0 +1,23 @@
+{
+  "name": "caracoles",
+  "version": "1.0.0",
+  "description": "El mejor lugar para apostar por tu caracol favorito en carreras de caracoles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memorstx/caracoles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/memorstx/caracoles/issues"
+  },
+  "homepage": "https://github.com/memorstx/caracoles#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
