@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>caracoles | home</title>
   <link rel="stylesheet" href="./assets/css/home.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./assets/img/favicon_io/favicon-32x32.png">
-  <title>caracoles | home</title>
+  <script defer src="./assets/js/races.js"></script>
 </head>
 <body>
   <header class="header">
@@ -29,7 +30,7 @@
 
   <main class="main">
     <h2 class="main__h2">Carreras del día</h2>
-    <section class="section">
+    <section class="section" id="races">
       <a class="section__item current">
         <h3 class="section__item--h3">Ciudad de México</h3>
         <p class="section__item--p">
@@ -37,31 +38,16 @@
         </p>
       </a>
 
-      <a href="./evento.html" class="section__item no-current">
+      <!-- <a href="./evento.html" class="section__item no-current" title="evento">
         <h3 class="section__item--h3">Congham, Inglaterra</h3>
         <p class="section__item--p">
-          Inicia en 04:26
+          Inicia en <span class="countdown" id="countdown">00:00</span>
         </p>
-      </a>
+      </a> -->
 
-      <a class="section__item no-current">
-        <h3 class="section__item--h3">Lorem, ipsum</h3>
-        <p class="section__item--p">
-          Inicia en 06:26
-        </p>
-      </a>
-
-      <a class="section__item no-current">
-        <h3 class="section__item--h3">Lorem, ipsum</h3>
-        <p class="section__item--p">
-          Lorem, ipsum dolor
-        </p>
-      </a>
-
-      
 
     </section>
   </main>
-  
+  <script src="./assets/js/timer.js"></script>
 </body>
 </html>

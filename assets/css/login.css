@@ -72,12 +72,12 @@ blockquote:before, blockquote:after, q:before, q:after {
   background-color: var(--negro);
   color: var(--blanco);
 }
-::selection {
+/* ::selection {
   background-color: var(--negro);
   color: var(--blanco);
-}
+} */
 
-form, input, textarea, select, button, label {
+form, textarea, select, button, label {
   font-family: inherit;
   font-size: inherit;
   -webkit-hyphens: auto;
