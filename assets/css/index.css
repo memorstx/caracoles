@@ -283,13 +283,14 @@ body {
   top: -85px;
   width:max-content;
   height: 46px;
-  padding: 12px 18px 12px 18px;
+  padding: 16px 18px 12px 18px;
   border-radius: 20px;
   background-color: var(--snail-light);
   font-size: 1.8rem;
   color: var(--snail-pink);
   margin: 0 auto;
   box-shadow: 0px 3px 4px rgb(72 69 97 / 40%);
+  cursor: pointer;
 }
 
 .steps_button:active, 

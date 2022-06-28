@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>caracoles | signup</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon_io/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/signup.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="./assets/img/favicon_io/favicon-32x32.png">
-  <title>caracoles | signup</title>
+  
+  
+  
 </head>
 <body>
   
@@ -24,28 +27,30 @@
 
       <div class="login__div--form">
         <label class="login__label" for="email">Correo electrónico</label>
-        <input class="login__input" type="text" placeholder="Escribe tu correo eletrónico">
+        <input id="email" class="login__input" type="email" placeholder="Escribe tu correo eletrónico">
       </div>
       
       <div class="login__div--form">
         <label class="login__label" for="password">Contraseña</label>
-        <input class="login__input" type="password" placeholder="Escribe una contraseña">
+        <input id="password" class="login__input" type="password" placeholder="Escribe una contraseña">
       </div>
 
       <div class="login__div--form">
         <label class="login__label" for="password">Repite la contraseña</label>
-        <input class="login__input" type="password" placeholder="Escribe una contraseña">
+        <input  id="password_confirmation" class="login__input" type="password" placeholder="Escribe una contraseña">
       </div>
       <div class="login__div--form">
-        <a href="" class="login__button">Registrarse</a>
+        <a id="register" type="button" class="login__button">Registrarse</a>
+        <span class="message" id="message"></span>
         <div class="signup">
           <label class="login__label" for="signup">¿Ya tienes una cuenta?</label>
          
-          <a class="signup__a" href="./login.html">¡Inicia sesión aquí!</a>
+          <a href="./login.html" title="iniciar sesión" class="signup__a" >¡Inicia sesión aquí!</a>
           
         </div>
       </div>
     </div>
   </section>
+  <script defer src="./assets/js/script.js"> </script>
 </body>
 </html>

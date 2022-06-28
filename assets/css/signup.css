@@ -202,6 +202,7 @@ body {
   color: white;
   margin: 15px auto;
   box-shadow: 0px 3px 4px rgb(72 69 97 / 40%);
+  cursor: pointer;
 }
 input::placeholder{
   color:rgb(72 69 97 / 40%);
@@ -219,6 +220,14 @@ input::placeholder{
   padding: 0px 16px 0px 16px;
   text-decoration: underline;
 }
+#message{
+  display: flex;
+  color: var(--snail-pink);
+  transition: all .75s ease;
+  font-size: 1.4rem;
+  justify-content: center;
+}
+
 @media only screen and (min-width:425px){
   .login__div{
     padding: 40px 35px 40px 35px;
